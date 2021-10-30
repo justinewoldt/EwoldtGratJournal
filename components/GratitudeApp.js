@@ -3,6 +3,7 @@ import Input from "./Input"
 import History from './History'
 import { supabase } from '../utils/supabaseClient'
 import { useEffect, useState} from 'react'
+import { Auth } from "@supabase/ui"
 
 
 export default function GratitudeApp({user}) {

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-export default function Input( {handleSubmit } ) {
+export default function Input( { handleSubmit } ) {
   const [value, setValue] = useState("")
 
   let submitForm = e => {
